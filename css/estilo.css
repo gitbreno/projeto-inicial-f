@@ -43,15 +43,83 @@
 /* input[type="text"] {color: red;} - Este seletor estiliza todos os inputs que possuem o atributo "type" com o valor "text". */
 
 /* Exemplo de reset de estilos */
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 /* Exemplo de reset de estilos */
-
+/* 
 #container{
     background-color: #a1a1a1;
     width: 75%;
     margin: 0 auto;
+} */ 
+
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#container{
+    margin: 20px;
+}
+
+.cabecalho{
+    background-color: cornflowerblue;
+    color: #fff;
+    text-align: center;
+    background-image: url(../img/Picture1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+section{
+    line-height: 1.5
+}
+#id{
+    padding-bottom: 1.5;
+}
+
+.menu ul li {
+  
+    color: black;
+}
+
+.menu ul li a {
+  
+    color: black    ;
+}
+
+
+form{
+    border: solid 1px gray;
+    padding: 10px;
+
+}
+
+button{
+    color: #ffffff;
+    background-color: cornflowerblue;
+}
+
+p{
+    color: black;
+}
+
+footer{
+    padding-top: 1px;
+    border-top: 2px solid cornflowerblue;
+  
+}
+
+footer p {
+    color: black;
+    text-align: center;
 }
