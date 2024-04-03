@@ -89,17 +89,17 @@ section{
 
 .menu ul li {
   
-    color: black;
+    color: white;
 }
 
 .menu ul li a {
   
-    color: black    ;
+    color: white   ;
 }
 
 
 form{
-    border: solid 1px gray;
+    border: solid 1px white;
     padding: 10px;
 
 }
@@ -120,6 +120,6 @@ footer{
 }
 
 footer p {
-    color: black;
+    color: #ffffff;
     text-align: center;
 }
