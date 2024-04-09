@@ -57,69 +57,23 @@
 } */ 
 
 
-
-h1{
-    font-family: 'Times New Roman', Times, serif;
-}
-
 #container{
-    margin: 20px;
+    background-color: #ccc;
 }
 
 .cabecalho{
-    background-color: cornflowerblue;
+    background-color: #333;
     color: #fff;
+    padding: 10px;
     text-align: center;
-    background-image: url(../img/Picture1.png);
+    background-image: url("../img/Picture1.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-
-
-
-
-section{
-    line-height: 1.5
-}
-#id{
-    padding-bottom: 1.5;
-}
-
-.menu ul li {
-  
-    color: white;
-}
-
-.menu ul li a {
-  
-    color: white   ;
-}
-
-
-form{
-    border: solid 1px white;
-    padding: 10px;
-
-}
-
-button{
-    color: #ffffff;
-    background-color: cornflowerblue;
-}
-
-p{
-    color: black;
-}
-
-footer{
-    padding-top: 1px;
-    border-top: 2px solid cornflowerblue;
-  
-}
-
-footer p {
-    color: #ffffff;
-    text-align: center;
+.menu ul li{
+    display: inline;
+    margin-right: 10px;
+    background-color: #ccc;
 }
